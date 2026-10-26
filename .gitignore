@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor and OS files
+.DS_Store
+*~
+
+# Downloaded at run time by torch_geometric
+data/Reddit/
+
+# Licensed data: never commit (see data/Refinitiv/README.md)
+data/Refinitiv/*
+!data/Refinitiv/README.md
